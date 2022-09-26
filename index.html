@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img src="Vector.png" alt=LogoAlura>
+        
+        <h1>Encriptador</h1>
+    </header>
+    <main>
+        <section class="sec1">
+            <textarea class="i-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>      
+        </section>
+        <section class="sec2">
+            <textarea class="msg" cols="46" rows="20"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
